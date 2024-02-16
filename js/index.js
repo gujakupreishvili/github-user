@@ -9,7 +9,7 @@ moon.addEventListener("click", () => {
     ligth_mode.style.display = "flex";
     dark_mode.style.display = "none";
     document.body.classList.toggle("dark");
-    followers_div.classList.toggle("dark-follower");
+    // followers_div.classList.toggle("dark-follower");
   }
 });
 sun.addEventListener("click", () => {
@@ -17,7 +17,7 @@ sun.addEventListener("click", () => {
     dark_mode.style.display = "flex";
     ligth_mode.style.display = "none";
     document.body.classList.toggle("dark");
-    followers_div.classList.toggle("dark-follower");
+    // followers_div.classList.toggle("dark-follower");
   }
 });
 

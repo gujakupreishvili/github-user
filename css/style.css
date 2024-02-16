@@ -80,16 +80,17 @@ header div{
 .dark form input::placeholder{
   color: #FFFFFF;
 }
-.dark div{
+.dark .contant{
   background-color: #1E2A47;
   border-radius: 15px;
 }
 
-.dark-follower{
+.dark .followers-div{
   border-radius: 10px;
   background-color: #141D2F;
   color: #FFF;
 }
+
 /* dark mode finish */
 .input-form{
   width: 85%;
