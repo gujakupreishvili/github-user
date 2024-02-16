@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img-file/cat-img.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Open+Sans:wght@500;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>github-user</title>
+  </head>
+  <body>
+    <header>
+      <p class="devfinder">devfinder</p>
+      <div class="dark-mode">
+        <p>DARK</p>
+        <img src="./img-file/moon.png" alt="" class="moon" />
+      </div>
+      <div class="light-mode">
+        <p>LIGHT</p>
+        <img src="./img-file/sun.png" alt="" class="sun" />
+      </div>
+    </header>
+    <form action="" class="input-form">
+      <div class="search-text">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input
+          type="text"
+          name=""
+          id="input-user"
+          placeholder="Search GitHub username…"
+        />
+        <p id="no-result">No results</p>
+      </div>
+      <button id="search-btn">search</button>
+    </form>
+    <div class="contant">
+      <img src="./img-file/cat-img.png" alt="" class="desktop-user" />
+      <div class="for-respons">
+        <div class="user-logoname">
+          <img src="./img-file/cat-img.png" alt="" class="user-mobile" />
+          <div class="user-name">
+            <p class="name">The Octocat</p>
+            <p id="email">@octocat</p>
+            <p class="data">Joined 25 Jan 2011</p>
+          </div>
+        </div>
+        <p class="user-bio">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
+          Quisque volutpat mattis eros.
+        </p>
+        <div class="followers-div">
+          <div class="followers-info">
+            <p class="repo-text">Repos</p>
+            <p class="followers-text">followers</p>
+            <p class="following-text">followimg</p>
+          </div>
+          <div class="followers-number">
+            <p class="repo">8</p>
+            <p class="followers-num">3938</p>
+            <p class="followimg-num">9</p>
+          </div>
+        </div>
+        <div class="link-div">
+          <div class="location-div">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="city">San Francisco</p>
+          </div>
+          <div class="github-link">
+            <i class="fa-solid fa-link"></i>
+            <a href="#"> <p class="user-link">https://github.blog</p></a>
+          </div>
+          <div class="twitter">
+            <i class="fa-brands fa-twitter" style="color: #cdcccc"></i>
+            <p id="twitter-link">Not Available</p>
+          </div>
+          <div class="house">
+            <i class="fa-solid fa-building-circle-check"></i>
+            <p class="location-link">@github</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
