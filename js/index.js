@@ -87,8 +87,10 @@ function check_user() {
         } else if (window.innerWidth < 1023) {
           user_information.innerHTML = `
           <img src="${data.avatar_url}" alt="" class="desktop-user" />
-          <div class = for-respons" style="display: flex; 
-          flex-direction: column; >
+          <div class = for-respons" style="
+          gap:30px;
+          display: flex; 
+          flex-direction:row;>
           <div class="user-logoname">
           <img src="${data.avatar_url}" alt="" class= user-mobile>
           <div class="user-name">

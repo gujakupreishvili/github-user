@@ -165,11 +165,11 @@ header div{
   display: flex;
   flex-direction: column;
 }
-/* .for-respons{
+.for-respons{
   display: flex;
   flex-direction: column;
   align-items: center;
-} */
+}
 .desktop-user{
   display: none;
 }
